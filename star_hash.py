@@ -28,6 +28,6 @@ for i in o:
 	if(i%3>1):
 		to += ' '
 # fill in the last gap with a repeat of the start, kind of a lazy fix
-to += to[0:7]
+to += to[0:3]
 for i in chunks(to, 16):
 	print(i)
